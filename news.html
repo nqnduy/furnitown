@@ -18,132 +18,138 @@
     <meta property="og:site_name" content="" />
     <meta property="og:image" content="" />
 
-    <link rel="stylesheet" href="dest/style.min.css">
-    <link rel="stylesheet" href="dest/fonts.css">
+    <link rel="stylesheet" href="./dest/style.min.css">
+    <link rel="stylesheet" href="./dest/fonts.css">
 </head>
 <style>
     @font-face {
-    font-family: 'AM';
-    src: url('fonts/ArimaMadurai-Regular.woff2') format('woff2'),
-        url('fonts/ArimaMadurai-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: fallback;
-}
-    @font-face {
-    font-family: 'CTG1';
-    src: url('fonts/ChronicleTextG1-Roman.woff2') format('woff2'),
-        url('fonts/ChronicleTextG1-Roman.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: fallback;
-}
-    @font-face {
-font-family: 'MPr';
-src: url('MyriadPro-Regular.woff2') format('woff2'),
-    url('MyriadPro-Regular.woff') format('woff');
-font-weight: normal;
-font-style: normal;
-font-display: fallback;
-}
-
+        font-family: 'AM';
+        src: url('./fonts/ArimaMadurai-Regular.woff2') format('woff2'),
+            url('./fonts/ArimaMadurai-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: fallback;
+    }
 
     @font-face {
-font-family: 'ANb';
-src: url('fonts/AvenirNextLTPro-Bold.woff2') format('woff2'),
-    url('fonts/AvenirNextLTPro-Bold.woff') format('woff');
-font-weight: bold;
-font-style: normal;
-font-display: fallback;
-}
+        font-family: 'CTG1';
+        src: url('./fonts/ChronicleTextG1-Roman.woff2') format('woff2'),
+            url('./fonts/ChronicleTextG1-Roman.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: fallback;
+    }
+
     @font-face {
-font-family: 'EBbi';
-src: url('fonts/ElleBaskerville-BoldItalic.woff2') format('woff2'),
-    url('fonts/ElleBaskerville-BoldItalic.woff') format('woff');
-font-weight: bold;
-font-style: italic;
-font-display: fallback;
-}
+        font-family: 'MPr';
+        src: url('./fonts/MyriadPro-Regular.woff2') format('woff2'),
+            url('./fonts/MyriadPro-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: fallback;
+    }
 
-@font-face {
-font-family: 'EB';
-src: url('fonts/ElleBaskerville.woff2') format('woff2'),
-    url('fonts/ElleBaskerville.woff') format('woff');
-font-weight: normal;
-font-style: normal;
-font-display: fallback;
-}
 
-@font-face {
-font-family: 'EBb';
-src: url('fonts/ElleBaskerville-Bold.woff2') format('woff2'),
-    url('fonts/ElleBaskerville-Bold.woff') format('woff');
-font-weight: bold;
-font-style: normal;
-font-display: fallback;
-}
+    @font-face {
+        font-family: 'ANb';
+        src: url('./fonts/AvenirNextLTPro-Bold.woff2') format('woff2'),
+            url('./fonts/AvenirNextLTPro-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: fallback;
+    }
 
-@font-face {
-font-family: 'EBi';
-src: url('fonts/ElleBaskerville-Italic.woff2') format('woff2'),
-    url('fonts/ElleBaskerville-Italic.woff') format('woff');
-font-weight: normal;
-font-style: italic;
-font-display: fallback;
-}
+    @font-face {
+        font-family: 'EBbi';
+        src: url('./fonts/ElleBaskerville-BoldItalic.woff2') format('woff2'),
+            url('./fonts/ElleBaskerville-BoldItalic.woff') format('woff');
+        font-weight: bold;
+        font-style: italic;
+        font-display: fallback;
+    }
 
-@font-face {
-font-family: 'EBsb';
-src: url('fonts/ElleBaskerville-SemiBold.woff2') format('woff2'),
-    url('fonts/ElleBaskerville-SemiBold.woff') format('woff');
-font-weight: 600;
-font-style: normal;
-font-display: fallback;
-}
+    @font-face {
+        font-family: 'EB';
+        src: url('./fonts/ElleBaskerville.woff2') format('woff2'),
+            url('./fonts/ElleBaskerville.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: fallback;
+    }
 
-@font-face {
-font-family: 'EBsbi';
-src: url('fonts/ElleBaskerville-SemiBoldItalic.woff2') format('woff2'),
-    url('fonts/ElleBaskerville-SemiBoldItalic.woff') format('woff');
-font-weight: 600;
-font-style: italic;
-font-display: fallback;
-}
+    @font-face {
+        font-family: 'EBb';
+        src: url('./fonts/ElleBaskerville-Bold.woff2') format('woff2'),
+            url('./fonts/ElleBaskerville-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: fallback;
+    }
+
+    @font-face {
+        font-family: 'EBi';
+        src: url('./fonts/ElleBaskerville-Italic.woff2') format('woff2'),
+            url('./fonts/ElleBaskerville-Italic.woff') format('woff');
+        font-weight: normal;
+        font-style: italic;
+        font-display: fallback;
+    }
+
+    @font-face {
+        font-family: 'EBsb';
+        src: url('./fonts/ElleBaskerville-SemiBold.woff2') format('woff2'),
+            url('./fonts/ElleBaskerville-SemiBold.woff') format('woff');
+        font-weight: 600;
+        font-style: normal;
+        font-display: fallback;
+    }
+
+    @font-face {
+        font-family: 'EBsbi';
+        src: url('./fonts/ElleBaskerville-SemiBoldItalic.woff2') format('woff2'),
+            url('./fonts/ElleBaskerville-SemiBoldItalic.woff') format('woff');
+        font-weight: 600;
+        font-style: italic;
+        font-display: fallback;
+    }
 </style>
+
 <body class="post-detail">
     <header class="header">
         <div class="menu">
-                <div class="container-fluid">
-                    <ul>
-                        <li><a href="/furnitown.html">Furnitown</a></li>
-                        <li><a href="/product.html">SẢN PHẨM</a></li>
-                        <li><a href="/service.html">DỊCH VỤ</a></li>
-                        <li class="logo"><a href="/index.html"><img src="img/icons/scrollmenulogo.png" alt=""></a></li>
-                        <li><a href="/projects.html">DỰ ÁN</a></li>
-                        <li><a href="/news.html">TIN TỨC</a></li>
-                        <li><a href="/contact.html">LIÊN HỆ</a></li>
-                    </ul>
-                     <div class="plate plate1">
-    <svg class="burger" version="1.1" height="100" width="100" viewBox="0 0 100 100">
-      <path class="line line1" d="M 30,65 H 70"/>
-      <path class="line line2" d="M 70,50 H 30 C 30,50 18.644068,50.320751 18.644068,36.016949 C 18.644068,21.712696 24.988973,6.5812347 38.79661,11.016949 C 52.604247,15.452663 46.423729,62.711864 46.423729,62.711864 L 50.423729,49.152542 L 50.423729,16.101695"/>
-      <path class="line line3" d="M 30,35 H 70 C 70,35 80.084746,36.737688 80.084746,25.423729 C 80.084746,19.599612 75.882239,9.3123528 64.711864,13.559322 C 53.541489,17.806291 54.423729,62.711864 54.423729,62.711864 L 50.423729,49.152542 V 16.101695"/>
-    </svg>
-    <svg class="x" version="1.1" height="100" width="100" viewBox="0 0 100 100">
-      <path class="line" d="M 34,32 L 66,68" />
-      <path class="line" d="M 66,32 L 34,68" />
-    </svg>
-                    </div>
-                    <div class="logomobile">
-                        <img src="img/icons/homelogobottom.png" alt="">
-                    </div>
+            <div class="container-fluid">
+                <ul>
+                    <li><a href="./furnitown.html">Furnitown</a></li>
+                    <li><a href="./product.html">SẢN PHẨM</a></li>
+                    <li><a href="./service.html">DỊCH VỤ</a></li>
+                    <li class="logo"><a href="./index.html"><img src="./img/icons/scrollmenulogo.png" alt=""></a></li>
+                    <li><a href="./projects.html">DỰ ÁN</a></li>
+                    <li><a href="./news.html">TIN TỨC</a></li>
+                    <li><a href="./contact.html">LIÊN HỆ</a></li>
+                </ul>
+                <div class="plate plate1">
+                    <svg class="burger" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+                        <path class="line line1" d="M 30,65 H 70" />
+                        <path class="line line2"
+                            d="M 70,50 H 30 C 30,50 18.644068,50.320751 18.644068,36.016949 C 18.644068,21.712696 24.988973,6.5812347 38.79661,11.016949 C 52.604247,15.452663 46.423729,62.711864 46.423729,62.711864 L 50.423729,49.152542 L 50.423729,16.101695" />
+                        <path class="line line3"
+                            d="M 30,35 H 70 C 70,35 80.084746,36.737688 80.084746,25.423729 C 80.084746,19.599612 75.882239,9.3123528 64.711864,13.559322 C 53.541489,17.806291 54.423729,62.711864 54.423729,62.711864 L 50.423729,49.152542 V 16.101695" />
+                    </svg>
+                    <svg class="x" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+                        <path class="line" d="M 34,32 L 66,68" />
+                        <path class="line" d="M 66,32 L 34,68" />
+                    </svg>
                 </div>
+                <div class="logomobile">
+                    <img src="./img/icons/homelogobottom.png" alt="">
+                </div>
+            </div>
         </div>
         <div class="minimenu">
             <ul>
-                <li><a href="/furnitown.html">Furnitown</a></li>
+                <li><a href="./furnitown.html">Furnitown</a></li>
                 <li><a href="#share">Share</a></li>
-                <li><a href="#"><img src="img/icons/arrowheader.png" alt=""></a></li>
+                <li><a href="#"><img src="./img/icons/arrowheader.png" alt=""></a></li>
             </ul>
         </div>
     </header>
@@ -153,151 +159,176 @@ font-display: fallback;
                 <div class="right"><span>Furnitown</span></div>
                 <div class="left">
                     <span>Follow us</span>
-                    <img src="img/icons/mail.png" alt="">
-                    <img src="img/icons/fb.png" alt="">
+                    <img src="./img/icons/mail.png" alt="">
+                    <img src="./img/icons/fb.png" alt="">
                 </div>
-            </div>
+            </div>./
             <div class="btnhome">
-                <img src="img/icons/homelogobottom.png" class="home2">
-                <a href="/index.html" class="home1"><img src="img/icons/navinsie.png"></a>
-                <img src="img/icons/close.png" class="close">
+                <img src="./img/icons/homelogobottom.png" class="home2">
+                <a href="./index.html" class="home1"><img src="./img/icons/navinsie.png"></a>
+                <img src="./img/icons/close.png" class="close">
             </div>
             <ul>
-                <li><a href="/furnitown.html" class="active">Furnitown</a></li>
-                <li><a href="/product.html">Sản phẩm</a></li>
-                <li><a href="/service.html">Dịch vụ</a></li>
-                <li><a href="/projects.html">Dự án</a></li>
-                <li><a href="/contact.html">Liên hệ</a></li>
-                <li><a href="/news.html">Fags | Tin tức</a></li>
+                <li><a href="./furnitown.html" class="active">Furnitown</a></li>
+                <li><a href="./product.html">Sản phẩm</a></li>
+                <li><a href="./service.html">Dịch vụ</a></li>
+                <li><a href="./projects.html">Dự án</a></li>
+                <li><a href="./contact.html">Liên hệ</a></li>
+                <li><a href="./news.html">Fags | Tin tức</a></li>
             </ul>
         </div>
         <div class="menu-backdrop"></div>
     </nav>
     <main class="news-page">
         <section class="bannerNew">
-                <img src="img/banner_product.jpg" alt="" class="imgBanner">
-                <div class="contentBanner">
-                    <div class="container">
-                        <h2>Tin tức & Sự kiện</h2>
-                    </div>
-                    <div class="nav__btn">
-                        <div class="nav__btn-normal">
-                            <img src="img/icons/homenav.png" class="imgnormal">
-                            <div class="nav__btn-hover">
-                                <img src="/img/icons/homelogohover.png" alt="">
-                                <span>Menu</span>
-                            </div>
-                    </div>
+            <img src="./img/banner_product.jpg" alt="" class="imgBanner">
+            <div class="contentBanner">
+                <div class="container">
+                    <h2>Tin tức & Sự kiện</h2>
+                </div>
+                <div class="nav__btn">
+                    <div class="nav__btn-normal">
+                        <img src="./img/icons/homenav.png" class="imgnormal">
+                        <div class="nav__btn-hover">
+                            <img src="./img/icons/homelogohover.png" alt="">
+                            <span>Menu</span>
+                        </div>
                     </div>
                 </div>
+            </div>
         </section>
         <section class="allNews">
             <div class="container">
-                    <div class="thumbnails news">
-                        <div class="thumbnails__slider" id="">
-                                <div class="thumbnails__slider-item">
-                                    <a href="newsDetail.html">
-                                        <div class="img"><img src="img/imgnews.jpeg" alt=""></div>
-                                        <p class="name">Em-Estudio builds concrete holiday home on Oaxaca hillside</p>
-                                        <p class="desc">Em-Estudio has built a holiday home on a steep hillside in Oaxaca, Mexico, from coloured concrete chosen to blend into the rocky mountainside.Named La Extraviada, the house overlooks Mermejita beach in Mazunte, a small seaside town on southern Mexico's Pacific coast.</p>
-                                        <p class="athor">Jane Englefield | 21 minutes ago</p>
-                                        <div class="detailbtn">
-                                            <img src="img/icons/blackarrow.png" alt="" class="black">
-                                            <img src="img/icons/arrowheader.png" alt="" class="white">
-                                            <span>More</span></div>
-                                    </a>
+                <div class="thumbnails news">
+                    <div class="thumbnails__slider" id="">
+                        <div class="thumbnails__slider-item">
+                            <a href="./newsDetail.html">
+                                <div class="img"><img src="./img/imgnews.jpeg" alt=""></div>
+                                <p class="name">Em-Estudio builds concrete holiday home on Oaxaca hillside</p>
+                                <p class="desc">Em-Estudio has built a holiday home on a steep hillside in Oaxaca,
+                                    Mexico, from coloured concrete chosen to blend into the rocky mountainside.Named La
+                                    Extraviada, the house overlooks Mermejita beach in Mazunte, a small seaside town on
+                                    southern Mexico's Pacific coast.</p>
+                                <p class="athor">Jane Englefield | 21 minutes ago</p>
+                                <div class="detailbtn">
+                                    <img src="./img/icons/blackarrow.png" alt="" class="black">
+                                    <img src="./img/icons/arrowheader.png" alt="" class="white">
+                                    <span>More</span>
                                 </div>
-                                <div class="thumbnails__slider-item">
-                                    <a href="newsDetail.html">
-                                        <div class="img"><img src="img/news/news2.jpg" alt=""></div>
-                                        <p class="name">Don't Move, Improve! 2021 shortlist spotlights London's best house renovations
-                                        </p>
-                                        <p class="desc">A minimalist charred-wood extension, a garden studio wrapped in green terrazzo and an origami-inspired annexe are in the running to be crowned London's best home improvement of 2021.</p>
-                                        <p class="athor">Lizzie Crook | 4 hours ago</p>
-                                        <div class="detailbtn">
-                                            <img src="img/icons/blackarrow.png" alt="" class="black">
-                                            <img src="img/icons/arrowheader.png" alt="" class="white">
-                                            <span>More</span></div>
-                                    </a>
+                            </a>
+                        </div>
+                        <div class="thumbnails__slider-item">
+                            <a href="./newsDetail.html">
+                                <div class="img"><img src="./img/news/news2.jpg" alt=""></div>
+                                <p class="name">Don't Move, Improve! 2021 shortlist spotlights London's best house
+                                    renovations
+                                </p>
+                                <p class="desc">A minimalist charred-wood extension, a garden studio wrapped in green
+                                    terrazzo and an origami-inspired annexe are in the running to be crowned London's
+                                    best home improvement of 2021.</p>
+                                <p class="athor">Lizzie Crook | 4 hours ago</p>
+                                <div class="detailbtn">
+                                    <img src="./img/icons/blackarrow.png" alt="" class="black">
+                                    <img src="./img/icons/arrowheader.png" alt="" class="white">
+                                    <span>More</span>
                                 </div>
-                                <div class="thumbnails__slider-item">
-                                    <a href="newsDetail.html">
-                                        <div class="img"><img src="img/news/new3.jpg" alt=""></div>
-                                        <p class="name">Skene Catling de la Peña to transform Aalto-designed silo into cultural events space</p>
-                                        <p class="desc">London studio Skene Catling de la Peña and not-for-profit organisation Factum Foundation are set to turn the Toppila silo designed by architects Aina and Alvar Aalto in Oulu, Finland, into the Aaltosiilo cultural space.</p>
-                                        <p class="athor">Cajsa Carlson | 13 hours ago</p>
-                                        <div class="detailbtn">
-                                            <img src="img/icons/blackarrow.png" alt="" class="black">
-                                            <img src="img/icons/arrowheader.png" alt="" class="white">
-                                            <span>More</span></div>
-                                    </a>
+                            </a>
+                        </div>
+                        <div class="thumbnails__slider-item">
+                            <a href="./newsDetail.html">
+                                <div class="img"><img src="./img/news/new3.jpg" alt=""></div>
+                                <p class="name">Skene Catling de la Peña to transform Aalto-designed silo into cultural
+                                    events space</p>
+                                <p class="desc">London studio Skene Catling de la Peña and not-for-profit organisation
+                                    Factum Foundation are set to turn the Toppila silo designed by architects Aina and
+                                    Alvar Aalto in Oulu, Finland, into the Aaltosiilo cultural space.</p>
+                                <p class="athor">Cajsa Carlson | 13 hours ago</p>
+                                <div class="detailbtn">
+                                    <img src="./img/icons/blackarrow.png" alt="" class="black">
+                                    <img src="./img/icons/arrowheader.png" alt="" class="white">
+                                    <span>More</span>
                                 </div>
-                                <div class="thumbnails__slider-item">
-                                    <a href="newsDetail.html">
-                                        <div class="img"><img src="img/news/new4.jpg" alt=""></div>
-                                        <p class="name">THAD curves prefabricated shelter over historic Peking Man cave in China</p>
-                                        <p class="desc">An undulating shelter has been constructed over the Peking Man cave, a historic site in China that is home to ancient human fossils, in an effort to protect it from weathering.</p>
-                                        <p class="athor">Lizzie Crook | 17 hours ago</p>
-                                        <div class="detailbtn">
-                                            <img src="img/icons/blackarrow.png" alt="" class="black">
-                                            <img src="img/icons/arrowheader.png" alt="" class="white">
-                                            <span>More</span></div>
-                                    </a>
+                            </a>
+                        </div>
+                        <div class="thumbnails__slider-item">
+                            <a href="./newsDetail.html">
+                                <div class="img"><img src="./img/news/new4.jpg" alt=""></div>
+                                <p class="name">THAD curves prefabricated shelter over historic Peking Man cave in China
+                                </p>
+                                <p class="desc">An undulating shelter has been constructed over the Peking Man cave, a
+                                    historic site in China that is home to ancient human fossils, in an effort to
+                                    protect it from weathering.</p>
+                                <p class="athor">Lizzie Crook | 17 hours ago</p>
+                                <div class="detailbtn">
+                                    <img src="./img/icons/blackarrow.png" alt="" class="black">
+                                    <img src="./img/icons/arrowheader.png" alt="" class="white">
+                                    <span>More</span>
                                 </div>
-                                <div class="thumbnails__slider-item">
-                                    <a href="newsDetail.html">
-                                        <div class="img"><img src="img/news/new5.jpg" alt=""></div>
-                                        <p class="name">Kengo Kuma designs curved library dedicated to Norwegian playwright Henrik Ibsen</p>
-                                        <p class="desc">Kengo Kuma and Associates has collaborated with Mad Arkitekter on the design of a library that will curve around existing trees in a small urban park in Skien, Norway.</p>
-                                        <p class="athor">Lizzie Crook | 22 hours ago</p>
-                                        <div class="detailbtn">
-                                            <img src="img/icons/blackarrow.png" alt="" class="black">
-                                            <img src="img/icons/arrowheader.png" alt="" class="white">
-                                            <span>More</span></div>
-                                    </a>
+                            </a>
+                        </div>
+                        <div class="thumbnails__slider-item">
+                            <a href="./newsDetail.html">
+                                <div class="img"><img src="./img/news/new5.jpg" alt=""></div>
+                                <p class="name">Kengo Kuma designs curved library dedicated to Norwegian playwright
+                                    Henrik Ibsen</p>
+                                <p class="desc">Kengo Kuma and Associates has collaborated with Mad Arkitekter on the
+                                    design of a library that will curve around existing trees in a small urban park in
+                                    Skien, Norway.</p>
+                                <p class="athor">Lizzie Crook | 22 hours ago</p>
+                                <div class="detailbtn">
+                                    <img src="./img/icons/blackarrow.png" alt="" class="black">
+                                    <img src="./img/icons/arrowheader.png" alt="" class="white">
+                                    <span>More</span>
                                 </div>
-                                <div class="thumbnails__slider-item">
-                                    <a href="newsDetail.html">
-                                        <div class="img"><img src="img/news/new6.jpg" alt=""></div>
-                                        <p class="name">Satish Jassal Architects adds oak framed conservatory to renovated London townhouse</p>
-                                        <p class="desc">Satish Jassal Architects has remodelled a four-storey Victorian house in north London and added an oak-framed extension at the rear.
+                            </a>
+                        </div>
+                        <div class="thumbnails__slider-item">
+                            <a href="./newsDetail.html">
+                                <div class="img"><img src="./img/news/new6.jpg" alt=""></div>
+                                <p class="name">Satish Jassal Architects adds oak framed conservatory to renovated
+                                    London townhouse</p>
+                                <p class="desc">Satish Jassal Architects has remodelled a four-storey Victorian house in
+                                    north London and added an oak-framed extension at the rear.
 
-                                            The project, called Haringey Glazed Extension, involved replanning the entire layout of the terraced house, which had previously been divided into two homes.
+                                    The project, called Haringey Glazed Extension, involved replanning the entire layout
+                                    of the terraced house, which had previously been divided into two homes.
 
-                                            </p>
-                                        <p class="athor">Amy Frearson | 19 March 2021</p>
-                                        <div class="detailbtn">
-                                            <img src="img/icons/blackarrow.png" alt="" class="black">
-                                            <img src="img/icons/arrowheader.png" alt="" class="white">
-                                            <span>More</span></div>
-                                    </a>
+                                </p>
+                                <p class="athor">Amy Frearson | 19 March 2021</p>
+                                <div class="detailbtn">
+                                    <img src="./img/icons/blackarrow.png" alt="" class="black">
+                                    <img src="./img/icons/arrowheader.png" alt="" class="white">
+                                    <span>More</span>
                                 </div>
+                            </a>
                         </div>
                     </div>
-                    <div class="paging-btn">
-                        <span class="active">1</span>
-                        <span>2</span>
-                        <span>3</span>
-                        <span>4</span>
-                    </div>
+                </div>
+                <div class="paging-btn">
+                    <span class="active">1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                </div>
             </div>
         </section>
     </main>
     <footer>
         <div class="container">
             <div class="center">
-                <div class="img"><img src="img/icons/homelogobottom.png" alt=""></div>
-        <p>THỜI GIAN MỞ CỬA: 8h - 18h  - Thứ 2 đến Chủ nhật<br>
-            Số 7/22A, Ấp 6, xã Đông Thạnh, huyện Hóc Môn, thành phố Hồ Chí Minh<br>
-            Hotline: 0937.168.938<br>
-            Email: noithatfunitown@gmail.com</p>
+                <div class="img"><img src="./img/icons/homelogobottom.png" alt=""></div>
+                <p>THỜI GIAN MỞ CỬA: 8h - 18h - Thứ 2 đến Chủ nhật<br>
+                    Số 7/22A, Ấp 6, xã Đông Thạnh, huyện Hóc Môn, thành phố Hồ Chí Minh<br>
+                    Hotline: 0937.168.938<br>
+                    Email: noithatfunitown@gmail.com</p>
             </div>
             <div class="backToTop">
                 <p>Back To Top</p>
             </div>
         </div>
     </footer>
-    <script type="text/javascript" src="dest/jsmain.min.js"></script>
-    <script type="text/javascript" src="dest/main.js"></script>
+    <script type="text/javascript" src="./dest/jsmain.min.js"></script>
+    <script type="text/javascript" src="./dest/main.js"></script>
 </body>
+
 </html>
